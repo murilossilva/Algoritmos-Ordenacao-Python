@@ -7,16 +7,19 @@ d = int(input("1 - Em ordem descrente \n2 - Em ordem crescente \n3 - Sem ordena�
 x = np.randint(a,b,c)
 
 def bubbleSort(x):
-    n = len(x)
+    #ordenação decrescente
     if d == 1:
-        for i in range(n):
-            for j in range(0, n-i-1):
-                if x[j] < x[j + 1] :
+        for i in range(len(x),0,-1):
+            for j in range(0, i-1):
+                #se o termo atual for menor que o sucessor, inverte-se
+                if x[j] < x[j + 1]:
                     x[j], x[j + 1] = x[j + 1], x[j]
+                    
+    #ordenação crescente    
     if d == 2:
-        n = len(x)
-        for i in range(n):    
-            for j in range(0, n-i-1):
+        for i in range(len(x),0,-1):
+            for j in range(0, i-1):
+                #se o termo atual for maior que o sucessor, inverte-se
                 if x[j] > x[j + 1] :
                     x[j], x[j + 1] = x[j + 1], x[j]
                 

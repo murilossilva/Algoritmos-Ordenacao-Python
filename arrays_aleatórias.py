@@ -10,17 +10,24 @@ def bubbleSort(x):
     #ordenação decrescente
     if d == 1:
         for i in range(len(x),0,-1):
+            troca = False
             for j in range(0, i-1):
                 #se o termo atual for menor que o sucessor, inverte-se
                 if x[j] < x[j + 1]:
                     x[j], x[j + 1] = x[j + 1], x[j]
+                    troca = True
+            if not troca:
+               break
                     
     #ordenação crescente    
     if d == 2:
         for i in range(len(x),0,-1):
+            troca = False
             for j in range(0, i-1):
                 #se o termo atual for maior que o sucessor, inverte-se
                 if x[j] > x[j + 1] :
                     x[j], x[j + 1] = x[j + 1], x[j]
-                
+                    troca = True
+            if not troca:
+                break
 bubbleSort(x), print(x)

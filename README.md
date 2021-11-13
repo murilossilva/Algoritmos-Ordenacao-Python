@@ -23,6 +23,10 @@ A implementação desse algoritmo também é relativamente fácil, o valor do í
 Mas quando é o pior caso do Insertion Sort? O pior caso para esse algoritmo é quando o vetor está invertido, pois a condição de o elemento anterior ser maior que o atual vai ser sempre verdadeira, até que o vetor esteja completamente ordenado, o que eleva o algoritmo ao máximo de iterações possíves.
 
 <h3>Selection Sort</h3>
+O algoritmo de seleção ou Selection Sort é bem parecido com o Insertion Sort, o objetivo do Selection Sort é realizar a menor quantia de atribuições possíveis, ou mantê-las em um nível próximo independente do vetor. Mas como funciona esse algoritmo?
+<br></br>
+O Selection Sort tem o seu funcionamento baseado em percorrer todo o vetor em busca do menor valor presente nele. Ao encontrar esse menor valor ele o posiciona na primeira posição do vetor e repete esse funcionamento para os índices seguintes. O menor valor sempre é guardado em uma variável auxiliar e comparado com o valor do índice atual, caso esse seja menor que o valor na auxiliar, a variável assume o seu valor. Ou seja, ele funciona por seleção, já que seleciona sempre o menor número e o aloca no índice atual do primeiro laço. O seu pior caso é quando o vetor já está quase ordenado, pois ele continua realizando as comparações entre os índices, ou seja, a principal característica do Selection Sort é manter um desempenho linear.
+
 <h3>Social Medias</h3>
 
 - Instagram: https://www.instagram.com/original.mancha/

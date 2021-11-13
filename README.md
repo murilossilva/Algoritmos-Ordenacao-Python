@@ -10,6 +10,11 @@ Esse repositório é resultado de um estudo sobre Estrutura de Dados, com os pri
 
 - Os programas foram estruturados e testados em Python v3.9, caso sejam utilizadas versões diferentes não é possível assegurar a sua total funcionalidade.
 
+<h3>Bubble Sort</h3>
+O bubble sort geralmente é o pontapé inicial para o estudo de algoritmos de ordenação, principalmente os de origem simples, pois seu entendimento é mais simplista, o que um algoritmo de ordenação ruim considerando a situação. O caso ideal para a sua utilização é em momentos em que o vetor está quase ordenado, ou seja, poucos elementos precisam ser iterados. Mas por quê? 
+
+O método utilizado pelo bubble sort é através da varredura de elemento por elemento de um determinado vetor, pra cada elemento ele verifica se o mesmo é maior do que o elemento seguinte, caso seja, os elementos trocam de posição do vetor, e ele perpassa todo o vetor verificando isso, até o seu penúltimo elemento. Por conta dessas trocas exaustivas, o algoritmo acaba tornando-se lento para vetores que estão possuem muitos índices desordenados. Uma melhoria presente no código desse repositório implementada no algoritmo é a verificação de se é necessária a troca, caso não seja necessária o laço de repetição passa para o próximo índice (ou elemento), o que diminui consideralvemente o número de vezes que o vetor é percorrido, o que gera um aumento do desempenho.
+
 <h3>Social Medias</h3>
 
 - Instagram: https://www.instagram.com/original.mancha/

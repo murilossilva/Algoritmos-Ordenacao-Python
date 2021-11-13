@@ -1,20 +1,14 @@
-<h1>Gerador de arrays aleatórias</h1>
+<h1>Algoritmos de Ordenação em Python</h1>
 
-- Este gerador foi construído em Python no intuito de gerar arrays aleatórias através de algoritmo Bubble sort. É possível escolher os valores mínimos e máximos a serem sorteados, bem como a quantia de números a serem gerados e a sua forma de ordenação (decrescente, crescente ou sem ordenação).
+Esse repositório é resultado de um estudo sobre Estrutura de Dados, com os principais métodos de ordenação ]
 
 <h3>Requirements</h3>
 
-- Python 3.9.x
+Os algoritmos foram estruturados e testados em Python v3.9, caso sejam utilizadas versões diferentes não é possível assegurar a sua funcionalidade. Os algoritmos aqui estruturados e estudados são:
 
-<h3>Usage</h3>
-
-<h5>Windows</h5>
-
-- Double click
-
-<h5>Linux & MacOs & Windows</h5>
-
-- python3 arrays_aleatórias.py
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
 
 <h3>Social Medias</h3>
 
